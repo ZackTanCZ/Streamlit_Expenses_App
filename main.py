@@ -2,7 +2,7 @@ import json, re, datetime as dt
 import pandas as pd, numpy as np
 import altair as alt
 import streamlit as st
-#import data_ingestion as di
+import data_ingestion as di
 import data_transformation as dx
 
 
@@ -82,6 +82,7 @@ with p1:
 # 4b. Second Columns (p2) to display the DataFrame
 groupByMonthDFlagged = dx.addLaggedOnePeriod(groupByMonthDF)
 with p2:
+    st.text("Breakdown By Month")
     st.dataframe(groupByMonthDFlagged,
                  height = 458, 
                  hide_index = True, 
@@ -107,11 +108,19 @@ with p3:
 
     st.altair_chart(bar_chart)
 
-    # Setting another DataFrame to display more details
-    # Reuse filterDF
-    st.text("Category Breakdown")
-    st.dataframe(filterDF.round(2),
-                 hide_index = True,
-                 column_config= {"Amount": "Total ($)"}                 
-                 )
+    sel_toggle = st.toggle("Chart View", help = "Switch between Table View and Chart View")
+    st.text("Breakdown By Category - {}".format(sel_month))
+    if (sel_toggle == False):
+        # set up the DataFrame to display more details
+        st.dataframe(filterDF.round(2),hide_index = True,column_config= {"Amount": "Total ($)"})
+    else: 
+        # set up the pie chart
+        pie_chart = alt.Chart(filterDF.round(2)).mark_arc().encode(
+            theta = "Amount",
+            color = "Category",
+            tooltip = ["Category","Amount", "% of Total (%)"]
+        )
+        st.altair_chart(pie_chart)
+
+
 
