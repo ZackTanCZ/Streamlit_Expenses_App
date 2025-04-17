@@ -1,0 +1,521 @@
+Date,Amount,Description,Category
+1/6/2024,20,Dinner,Food
+1/6/2024,50,Rent,Home
+2/6/2024,13.3,Dinner ,Food
+3/6/2024,8,Haircut,Personal
+3/6/2024,17.6,Dinner ,Food
+4/6/2024,11.2,Dinner ,Food
+5/6/2024,8,Dinner ,Food
+6/6/2024,10.3,Dinner ,Food
+7/6/2024,11.3,Dinner ,Food
+8/6/2024,10.3,Dinner ,Food
+9/6/2024,6,Dinner ,Food
+10/6/2024,15.1,Dinner ,Food
+11/6/2024,6.4,Dinner ,Food
+11/6/2024,40.65,Wifi,Home
+12/6/2024,24.4,Dinner ,Food
+13/6/2024,0,Dinner ,Food
+14/6/2024,27,Dinner ,Food
+15/6/2024,8.1,Dinner ,Food
+16/6/2024,26,Dinner ,Food
+16/6/2024,2.5,ActiveSG Gym,Personal
+17/6/2024,9.2,Dinner ,Food
+17/6/2024,16.8,NTUC ,Food
+18/6/2024,14.1,Dinner ,Food
+19/6/2024,7,Dinner ,Food
+19/6/2024,2.5,ActiveSG Gym,Personal
+20/6/2024,13.2,Dinner ,Food
+20/6/2024,21,GOMO,Personal
+21/6/2024,7.3,Dinner ,Food
+21/6/2024,10,Top-up Card,Transportation
+21/6/2024,2.5,ActiveSG Gym,Personal
+21/6/2024,100,Forex,Personal
+22/6/2024,7.8,Dinner ,Food
+22/6/2024,2.5,ActiveSG Gym,Personal
+23/6/2024,0,Dinner ,Food
+24/6/2024,12.5,Dinner ,Food
+25/6/2024,11,Dinner ,Food
+25/6/2024,2.5,ActiveSG Gym,Personal
+26/6/2024,12,Dinner ,Food
+27/6/2024,17.3,Dinner ,Food
+27/6/2024,2.5,ActiveSG Gym,Personal
+28/6/2024,8.2,Dinner ,Food
+29/6/2024,0,Dinner ,Food
+30/6/2024,15,Dinner ,Food
+1/2/2024,50,Rent ,Home
+1/2/2024,10.6,Dinner,Food
+2/2/2024,37.6,Dinner,Food
+3/2/2024,22.8,Dinner,Food
+4/2/2024,23.6,Dinner,Food
+5/2/2024,10.6,Dinner,Food
+6/2/2024,16.5,Dinner,Food
+7/2/2024,6,NTUC ,Personal
+7/2/2024,17.6,Dinner,Food
+8/2/2024,10.1,Dinner,Food
+9/2/2024,0,Dinner,Food
+10/2/2024,0,Dinner,Food
+11/2/2024,0,Dinner,Food
+12/2/2024,7,Dinner,Food
+13/2/2024,17.2,Dinner,Food
+14/2/2024,8.5,Dinner,Food
+15/2/2024,8,Dinner,Food
+16/2/2024,13,Dinner,Food
+17/2/2024,15,Dinner,Food
+17/2/2024,21,GOMO,Personal
+17/2/2024,40.65,Wifi,Home
+18/2/2024,7,Dinner,Food
+19/2/2024,8.1,Dinner,Food
+20/2/2024,8.6,Dinner,Food
+21/2/2024,8.6,Dinner,Food
+22/2/2024,9,Dinner,Food
+23/2/2024,8.5,Dinner,Food
+24/2/2024,11.7,Dinner,Food
+25/2/2024,15.5,Dinner,Food
+26/2/2024,0,Dinner,Food
+27/2/2024,7.5,Dinner,Food
+28/2/2024,7,Dinner,Food
+29/2/2024,13.6,Dinner,Food
+1/3/2024,50,Rent ,Home
+1/3/2024,7.8,Dinner,Food
+2/3/2024,15.5,Dinner,Food
+3/3/2024,14.2,Dinner,Food
+4/3/2024,13.4,Dinner,Food
+5/3/2024,11.2,Dinner,Food
+6/3/2024,10,Dinner,Food
+7/3/2024,15.1,Dinner,Food
+8/3/2024,14.1,Dinner,Food
+9/3/2024,15,Dinner,Food
+9/3/2024,27,Grocery,Personal
+10/3/2024,8.2,Dinner,Food
+11/3/2024,21.2,Dinner,Food
+12/3/2024,20.65,Dinner,Food
+13/3/2024,11.4,Dinner,Food
+14/3/2024,10.8,Dinner,Food
+15/3/2024,4.5,Dinner,Food
+16/3/2024,21.6,Dinner,Food
+17/3/2024,13.2,Dinner,Food
+18/3/2024,10,Dinner,Food
+19/3/2024,17,Dinner,Food
+20/3/2024,21,GOMO,Personal
+20/3/2024,40.65,Wifi,Home
+20/3/2024,12.6,Dinner,Food
+21/3/2024,14,Dinner,Food
+22/3/2024,11,Dinner,Food
+23/3/2024,4,Dinner,Food
+24/3/2024,22.5,Dinner,Food
+25/3/2024,31,Haircut,Personal
+25/3/2024,12,Dinner,Food
+26/3/2024,15.8,Dinner,Food
+27/3/2024,17,Dinner,Food
+28/3/2024,14.1,Dinner,Food
+29/3/2024,24.5,Dinner,Food
+30/3/2024,27.2,Dinner,Food
+31/3/2024,91,Dinner,Food
+1/4/2024,50,Rent,Home
+1/4/2024,11,Dinner,Food
+2/4/2024,13,Dinner,Food
+3/4/2024,9.5,Dinner,Food
+4/4/2024,16,Dinner,Food
+5/4/2024,11,Dinner,Food
+6/4/2024,9,Dinner,Food
+7/4/2024,8,Dinner,Food
+8/4/2024,15.3,Dinner,Food
+9/4/2024,13.2,Dinner,Food
+10/4/2024,2,Dinner,Food
+11/4/2024,14.2,Dinner,Food
+12/4/2024,17.8,Dinner,Food
+13/4/2024,7,Dinner,Food
+14/4/2024,13,Dinner,Food
+15/4/2024,10,Dinner,Food
+16/4/2024,12.1,Dinner,Food
+17/4/2024,50,Dinner,Food
+18/4/2024,14.3,Dinner,Food
+19/4/2024,11.7,Dinner,Food
+20/4/2024,11.6,Dinner,Food
+20/4/2024,21,GOMO,Personal
+20/4/2024,40.65,Wifi,Home
+21/4/2024,10.2,Dinner,Food
+22/4/2024,10.1,Dinner,Food
+23/4/2024,16,Dinner,Food
+24/4/2024,20,Dinner,Food
+25/4/2024,6.2,Dinner,Food
+26/4/2024,5,Dinner,Food
+27/4/2024,6.6,Dinner,Food
+28/4/2024,3.8,Dinner,Food
+29/4/2024,6.6,Dinner,Food
+30/4/2024,15,Dinner,Food
+1/7/2024,50,Rent,Home
+1/7/2024,2.5,ActiveSG Gym Pass,Personal
+1/7/2024,7.3,Dinner,Food
+2/7/2024,10.8,Dinner,Food
+3/7/2024,9.2,Dinner,Food
+3/7/2024,2.5,ActiveSG Gym,Personal
+4/7/2024,6,Dinner,Food
+5/7/2024,2.5,ActiveSG Gym,Personal
+5/7/2024,9.4,Dinner,Food
+6/7/2024,11.6,Dinner,Food
+7/7/2024,2.5,ActiveSG Gym,Personal
+7/7/2024,18.6,Dinner,Food
+8/7/2024,8.6,Dinner,Food
+9/7/2024,13.8,Dinner,Food
+9/7/2024,2.5,ActiveSG Gym,Personal
+10/7/2024,9,Dinner,Food
+11/7/2024,7.4,Dinner,Food
+12/7/2024,2.5,ActiveSG Gym,Personal
+12/7/2024,40.65,Wifi,Home
+12/7/2024,24.3,Dinner,Food
+13/7/2024,14.4,Dinner,Food
+14/7/2024,13,Dinner,Food
+14/7/2024,2.5,ActiveSG Gym,Personal
+15/7/2024,10.2,Dinner,Food
+15/7/2024,2.5,ActiveSG Gym,Personal
+15/7/2024,150,Forex,Food
+16/7/2024,0,Dinner,Food
+17/7/2024,9.3,Dinner,Food
+18/7/2024,19,Dinner,Food
+18/7/2024,2.5,ActiveSG Gym,Personal
+19/7/2024,0,Dinner,Food
+20/7/2024,12.9,Dinner,Food
+20/7/2024,2.5,ActiveSG Gym,Personal
+21/7/2024,44,Dinner,Food
+22/7/2024,11,Dinner,Food
+23/7/2024,2.5,ActiveSG Gym,Personal
+23/7/2024,13.7,Dinner,Food
+24/7/2024,10,Dinner,Food
+25/7/2024,2.5,ActiveSG Gym,Personal
+25/7/2024,9.8,Dinner,Food
+26/7/2024,11.3,Dinner,Food
+27/7/2024,13.6,Dinner,Food
+28/7/2024,2.5,ActiveSG Gym,Personal
+28/7/2024,13.6,Dinner,Food
+29/7/2024,18.6,Dinner,Food
+30/7/2024,10.2,Dinner,Food
+31/7/2024,2.5,ActiveSG Gym,Personal
+31/7/2024,10.8,Dinner,Food
+1/1/2024,50,Rent,Home
+1/1/2024,8.3,Dinner,Food
+2/1/2024,11.2,Dinner,Food
+3/1/2024,23.2,Dinner,Food
+4/1/2024,38.6,Dinner,Food
+5/1/2024,5,Personal,Personal
+5/1/2024,7,Dinner,Food
+6/1/2024,11.5,Dinner,Food
+7/1/2024,23,Dinner,Food
+8/1/2024,8.4,Dinner,Food
+9/1/2024,15,Dinner,Food
+10/1/2024,14.8,Dinner,Food
+11/1/2024,14.1,Dinner,Food
+12/1/2024,36.5,Dinner,Food
+13/1/2024,12.6,Dinner,Food
+14/1/2024,21,Dinner,Food
+15/1/2024,16.2,Dinner,Food
+16/1/2024,40.6,Dinner,Food
+16/1/2024,3,Parker Pen Refill,Personal
+17/1/2024,11.2,Dinner,Food
+18/1/2024,15.4,Dinner,Food
+19/1/2024,8,Dinner,Food
+20/1/2024,20.2,Dinner,Food
+21/1/2024,40.65,Wifi,Personal
+21/1/2024,18.4,Dinner,Food
+22/1/2024,8.6,Dinner,Food
+23/1/2024,10,Dinner,Food
+24/1/2024,30.1,Dinner,Food
+25/1/2024,13,Dinner,Food
+26/1/2024,15.7,Dinner,Food
+26/1/2024,21,GOMO,Personal
+27/1/2024,7.5,Dinner,Food
+28/1/2024,9.5,Dinner,Food
+29/1/2024,90,Dinner,Food
+30/1/2024,7.3,Dinner,Food
+31/1/2024,33.25,Dinner,Food
+1/11/2024,0,Rent,Personal
+1/11/2024,20,Top up Card,Transportation
+1/11/2024,26.5,Dinner,Food
+2/11/2024,8.3,Phone Stuff,Personal
+2/11/2024,22.4,Dinner,Food
+3/11/2024,10.7,Dinner,Food
+4/11/2024,43,Dinner,Food
+5/11/2024,15.1,Dinner,Food
+6/11/2024,2.5,ActiveSG Gym,Personal
+6/11/2024,9.8,Dinner,Food
+7/11/2024,10.5,Dinner,Food
+8/11/2024,15,Dinner,Food
+8/11/2024,2.5,ActiveSG Gym,Personal
+8/11/2024,6.2,Phone Stuff,Personal
+9/11/2024,9.2,Dinner,Food
+10/11/2024,11.7,Dinner,Food
+11/11/2024,14.9,Dinner,Food
+11/11/2024,10,Top up Card,Transportation
+12/11/2024,26.5,Dinner,Food
+13/11/2024,17.1,Dinner,Food
+14/11/2024,2.5,ActiveSG Gym,Personal
+14/11/2024,20,Dinner,Food
+14/11/2024,20,Top up Card,Transportation
+15/11/2024,15,Dinner,Food
+15/11/2024,81.3,Wifi,Food
+16/11/2024,42,Dental Filling,Health/medical
+16/11/2024,11.3,Dinner,Food
+17/11/2024,2.5,ActiveSG Gym,Personal
+17/11/2024,18.2,Dinner,Food
+18/11/2024,14.3,Dinner,Food
+19/11/2024,53,Dinner,Food
+20/11/2024,18.33,GOMO,Personal
+20/11/2024,22.8,Dinner,Food
+21/11/2024,2.5,ActiveSG Gym,Personal
+21/11/2024,7.5,Dinner,Food
+22/11/2024,17.7,Dinner,Food
+23/11/2024,7.2,Dinner,Food
+23/11/2024,8,Haircut,Personal
+23/11/2024,2.5,ActiveSG Gym,Personal
+24/11/2024,14.85,Dinner,Food
+25/11/2024,16.1,Dinner,Food
+26/11/2024,2.5,ActiveSG Gym,Personal
+26/11/2024,4.65,Dinner,Food
+27/11/2024,8,Dinner,Food
+28/11/2024,9.5,Dinner,Food
+28/11/2024,2.5,ActiveSG Gym,Personal
+29/11/2024,7.7,Dinner,Food
+30/11/2024,36.8,Dinner,Food
+1/5/2024,50,Rent,Home
+1/5/2024,11,Dinner,Food
+2/5/2024,4.2,Dinner,Food
+3/5/2024,20,Dinner,Food
+4/5/2024,6,Dinner,Food
+5/5/2024,9.3,Dinner,Food
+6/5/2024,21.5,Dinner,Food
+7/5/2024,11.5,Dinner,Food
+8/5/2024,5,Dinner,Food
+9/5/2024,10,Dinner,Food
+10/5/2024,49,Dinner,Food
+11/5/2024,34.4,JB Trip,Food
+12/5/2024,8.3,Dinner,Food
+13/5/2024,11,Dinner,Food
+14/5/2024,8.2,Dinner,Food
+15/5/2024,7,Dinner,Food
+16/5/2024,15.5,Dinner,Food
+17/5/2024,5,Dinner,Food
+18/5/2024,21.5,Dinner,Food
+19/5/2024,8.7,Dinner,Food
+20/5/2024,17.6,Dinner,Food
+21/5/2024,22,Dinner,Food
+22/5/2024,11,Dinner,Food
+23/5/2024,14.5,Dinner,Food
+24/5/2024,13,Wireless Mouse,Personal
+24/5/2024,5,Dinner,Food
+25/5/2024,79,Dinner,Food
+25/5/2024,40.65,Wifi,Personal
+26/5/2024,13.5,Dinner,Food
+27/5/2024,11.3,Dinner,Food
+28/5/2024,19.5,Dinner,Food
+29/5/2024,10.1,Dinner,Food
+30/5/2024,24.8,Dinner,Food
+31/5/2024,10.8,Dinner,Food
+1/12/2024,0,Rent,Home
+1/12/2024,4.6,Dinner,Food
+1/12/2024,2.5,ActiveSG Gym,Personal
+2/12/2024,20,Top - Up Card,Transportation
+2/12/2024,20,Dinner,Food
+2/12/2024,23,Udemy ,Personal
+3/12/2024,11.4,Dinner,Food
+3/12/2024,2.5,ActiveSG Gym,Personal
+4/12/2024,5.3,Dinner,Food
+5/12/2024,26.55,Dinner,Food
+5/12/2024,2.5,ActiveSG Gym,Personal
+6/12/2024,11,Dinner,Food
+7/12/2024,140,Mega Bday Tab,Luxury
+8/12/2024,12.5,Dinner,Food
+9/12/2024,20.4,Dinner,Food
+10/12/2024,0,ActiveSG Gym,Personal
+10/12/2024,10.6,Dinner,Food
+10/12/2024,10,Top - Up Card,Transportation
+11/12/2024,10.65,Dinner,Food
+12/12/2024,8.7,Dinner,Food
+12/12/2024,2.5,ActiveSG Gym,Personal
+13/12/2024,11.05,Dinner,Food
+14/12/2024,9.5,Dinner,Food
+14/12/2024,2.5,ActiveSG Gym,Personal
+15/12/2024,11.05,Dinner,Food
+15/12/2024,20,Top - Up Card,Transportation
+16/12/2024,93,16th Dec,Luxury
+17/12/2024,6.5,Dinner,Food
+18/12/2024,24,Ben Trip,Luxury
+19/12/2024,6.5,Dinner,Food
+20/12/2024,17.9,Dinner,Food
+20/12/2024,19,GOMO,Personal
+20/12/2024,40.65,Wifi,Home
+21/12/2024,11.75,Dinner,Food
+21/12/2024,90,SingLife Group Term Insurance,Health/medical
+22/12/2024,9.5,Dinner,Food
+23/12/2024,20.4,Dinner,Food
+24/12/2024,30,24th Dec,Luxury
+25/12/2024,18.2,Dinner,Luxury
+25/12/2024,2.5,ActiveSG Gym,Personal
+25/12/2024,20,Top - Up Card,Transportation
+26/12/2024,8.5,Dinner,Food
+27/12/2024,5.2,Dinner,Food
+27/12/2024,2.5,ActiveSG Gym,Personal
+28/12/2024,10.85,Dinner,Food
+29/12/2024,11.6,Dinner,Food
+29/12/2024,2.5,ActiveSG Gym,Personal
+30/12/2024,11.05,Dinner,Food
+31/12/2024,30.9,Dinner,Food
+31/12/2024,2.5,ActiveSG Gym,Personal
+1/10/2024,50,Rent,Home
+1/10/2024,8.5,Dinner,Food
+2/10/2024,52.6,JB Trip,Food
+3/10/2024,20,Top up Card,Transportation
+3/10/2024,4.6,Dinner,Food
+3/10/2024,2.5,ActiveSG Gym,Personal
+4/10/2024,12.9,Dinner,Food
+5/10/2024,2.5,ActiveSG Gym,Personal
+5/10/2024,21.5,Dinner ,Personal
+6/10/2024,67.4,Dinner,Food
+7/10/2024,9.8,Dinner,Food
+7/10/2024,2.5,ActiveSG Gym,Personal
+8/10/2024,0,Convocation ,Personal
+8/10/2024,7.5,Dinner,Food
+9/10/2024,2.5,Dinner,Food
+9/10/2024,84.4,Dental,Health/medical
+10/10/2024,0,ActiveSG Gym,Personal
+10/10/2024,8,Haircut,Personal
+10/10/2024,15,Dinner,Food
+11/10/2024,15.8,Dinner,Food
+12/10/2024,39,Dinner,Food
+13/10/2024,13.2,Dinner,Food
+13/10/2024,2.5,ActiveSG Gym,Personal
+14/10/2024,10,Top up Card,Transportation
+14/10/2024,17.2,Dinner,Food
+15/10/2024,60,Wifi,Home
+15/10/2024,13,Dinner,Food
+15/10/2024,2.5,ActiveSG Gym,Personal
+16/10/2024,21.2,Dinner,Food
+17/10/2024,7.7,Dinner,Food
+18/10/2024,12.5,Others,Personal
+18/10/2024,16.05,Dinner,Food
+19/10/2024,5.2,Dinner,Food
+20/10/2024,9.8,Dinner,Food
+20/10/2024,2.5,ActiveSG Gym,Personal
+20/10/2024,240,IP Insurance,Health/medical
+21/10/2024,25.7,Dinner,Food
+21/10/2024,10,Top up Card,Transportation
+22/10/2024,18,Dinner,Food
+23/10/2024,22.8,Dinner,Food
+23/10/2024,50,Consultation Fee,Other
+24/10/2024,2.5,ActiveSG Gym,Personal
+24/10/2024,11.3,Dinner,Food
+24/10/2024,10,Top up Card,Transportation
+24/10/2024,100,Rent,Personal
+25/10/2024,16.5,Dinner,Food
+26/10/2024,42.8,Dinner,Food
+26/10/2024,689,S24 FE,Personal
+26/10/2024,10,Top up Card,Transportation
+27/10/2024,2.5,ActiveSG Gym,Personal
+27/10/2024,10.7,Dinner,Food
+28/10/2024,13.6,Dinner,Food
+29/10/2024,18,Dinner,Food
+30/10/2024,2.5,ActiveSG Gym,Personal
+30/10/2024,8.3,Dinner,Food
+30/10/2024,10,Top up Card,Transportation
+31/10/2024,15,Dinner,Food
+31/10/2024,2.5,ActiveSG Gym,Personal
+1/8/2024,50.3,JB Trip ,Food
+2/8/2024,6,Dinner,Food
+2/8/2024,10,Registration of IC,Personal
+3/8/2024,50,Rent,Home
+3/8/2024,2.5,ActiveSG Gym,Personal
+3/8/2024,16.2,Dinner,Food
+4/8/2024,4.3,Dinner,Food
+4/8/2024,10,Top -Up Card,Transportation
+5/8/2024,8.6,Dinner,Food
+6/8/2024,2.5,ActiveSG Gym,Personal
+6/8/2024,16.5,Dinner,Food
+7/8/2024,2.5,ActiveSG Gym,Personal
+7/8/2024,11.3,Dinner,Food
+8/8/2024,111.5,Dinner,Food
+9/8/2024,6,Dinner,Food
+10/8/2024,0,ActiveSG Gym,Personal
+10/8/2024,17,Dinner,Food
+10/8/2024,20,Top Up Card,Transportation
+11/8/2024,11.8,Dinner,Food
+12/8/2024,10.6,Dinner,Food
+12/8/2024,2.5,ActiveSG Gym,Personal
+13/8/2024,39,Dinner,Food
+14/8/2024,0.5,Earpiece,Personal
+14/8/2024,8.6,Dinner,Food
+15/8/2024,0,ActiveSG Gym,Personal
+15/8/2024,16.9,Dinner,Food
+16/8/2024,40.65,Wifi,Home
+16/8/2024,7.7,Dinner,Food
+17/8/2024,11,Dinner,Food
+17/8/2024,2.5,ActiveSG Gym,Personal
+18/8/2024,24,JB Trip with Sam,Food
+19/8/2024,10.6,Dinner,Food
+20/8/2024,2.5,ActiveSG Gym,Personal
+20/8/2024,14,Dinner,Food
+20/8/2024,20,Top Up Card,Transportation
+20/8/2024,8,Haircut,Personal
+21/8/2024,10.3,Dinner,Food
+22/8/2024,13,Dinner,Food
+22/8/2024,2.5,ActiveSG Gym,Personal
+23/8/2024,2.8,Dinner,Food
+24/8/2024,14.6,Dinner,Food
+25/8/2024,2.5,ActiveSG Gym,Personal
+25/8/2024,10.5,Dinner,Food
+26/8/2024,8.6,Dinner,Food
+27/8/2024,2.5,ActiveSG Gym,Personal
+27/8/2024,9.4,Dinner,Food
+28/8/2024,13.6,Dinner,Food
+28/8/2024,2.5,ActiveSG Gym,Personal
+29/8/2024,37.5,Dinner,Food
+30/8/2024,20,Top Up Card,Transportation
+30/8/2024,15.8,Dinner,Food
+31/8/2024,10.6,Dinner,Food
+1/9/2024,50,Rent,Home
+1/9/2024,2.5,ActiveSG Gym,Personal
+1/9/2024,11,Dinner,Food
+2/9/2024,21,Dinner,Food
+3/9/2024,11.8,Dinner,Food
+3/9/2024,2.5,ActiveSG Gym,Personal
+4/9/2024,30.2,Dinner,Food
+4/9/2024,2.5,ActiveSG Gym,Personal
+5/9/2024,45.6,Dinner,Food
+6/9/2024,7.5,Dinner,Food
+6/9/2024,5.7,Shaker Bottle ,Personal
+6/9/2024,2.5,ActiveSG Gym,Personal
+7/9/2024,17.15,Dinner,Food
+8/9/2024,10.7,Dinner,Food
+8/9/2024,2.5,ActiveSG Gym,Personal
+9/9/2024,20,Top-Up Card,Transportation
+9/9/2024,11.6,Dinner,Food
+9/9/2024,37,Protein Powder,Food
+10/9/2024,13.1,Dinner,Food
+10/9/2024,0,ActiveSG Gym,Personal
+11/9/2024,59,Dinner,Food
+12/9/2024,9.6,Dinner,Food
+13/9/2024,2.5,ActiveSG Gym,Personal
+13/9/2024,13.4,Dinner,Food
+14/9/2024,12.4,Dinner,Food
+15/9/2024,2.5,ActiveSG Gym,Personal
+15/9/2024,17,Dinner,Food
+16/9/2024,9.7,Dinner,Food
+17/9/2024,6,Dinner,Food
+18/9/2024,2.5,ActiveSG Gym,Personal
+18/9/2024,17.7,Dinner,Food
+19/9/2024,7.8,Dinner,Food
+19/9/2024,20,Top-Up Card,Transportation
+19/9/2024,2.5,ActiveSG Gym,Personal
+20/9/2024,135,SUSS Grad,Personal
+20/9/2024,19.7,Dinner,Food
+20/9/2024,40.65,Wifi,Home
+21/9/2024,22,Dinner,Food
+22/9/2024,7.5,Dinner,Food
+23/9/2024,84,Polyclinic Trip,Health/medical
+23/9/2024,12.2,Dinner,Food
+24/9/2024,9.7,Dinner,Food
+25/9/2024,12.1,Dinner,Food
+26/9/2024,14,Dinner,Food
+27/9/2024,16.3,Dinner,Food
+28/9/2024,9.4,Dinner,Food
+28/9/2024,10,Top-Up Card,Transportation
+29/9/2024,38.8,Dinner,Food
+30/9/2024,14.05,Dinner,Food
