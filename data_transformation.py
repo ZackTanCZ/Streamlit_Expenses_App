@@ -132,6 +132,6 @@ def getFilteredDF(sel_month, df):
         filterDF = groupByCategory(df[df['Month'] == sel_month])
 
     total_val = filterDF["Amount"].sum()
-    filterDF["% of Total(%)"] = round((filterDF["Amount"]/total_val) * 100, 2)
+    filterDF["% of Total (%)"] = round((filterDF["Amount"]/total_val) * 100, 2)
 
     return filterDF
