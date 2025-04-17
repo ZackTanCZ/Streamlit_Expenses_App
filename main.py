@@ -2,7 +2,7 @@ import json, re, datetime as dt
 import pandas as pd, numpy as np
 import altair as alt
 import streamlit as st
-import data_ingestion as di
+# import data_ingestion as di
 import data_transformation as dx
 
 
