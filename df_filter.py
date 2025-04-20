@@ -5,7 +5,8 @@ import streamlit.components.v1 as components
 from pandas.api.types import (is_datetime64_any_dtype, is_numeric_dtype, is_string_dtype, is_float_dtype)
 
 def dfWithFilter(df):
-    sel_filter = st.checkbox("Add Column Filter(s)")
+    # Creates a checkbox
+    sel_filter = st.checkbox('Add Column Filter(s)')
 
     # if checkbox is not checked
     if not (sel_filter):
@@ -17,16 +18,16 @@ def dfWithFilter(df):
     df_container = st.container()
 
     with df_container:
-        filtering_cols = st.multiselect("Filter by", ["Date","Month","Amount","Category"])
+        filtering_cols = st.multiselect('Filter by', ['Date','Month','Amount','Category'])
 
         for col in filtering_cols:
             left, right  = st.columns((1,15))
-            left.write("↳")
+            left.write('↳')
 
             # Checks the dtype of df[col] with pandas API
 
             if is_string_dtype(df[col]):
-                user_input = right.multiselect(f"Possible Values for {col}",
+                user_input = right.multiselect(f'Possible Values for {col}',
                                                df[col].unique())
 
                 df = df[df[col].isin(user_input)]
@@ -40,7 +41,7 @@ def dfWithFilter(df):
 
                 # create the slider
                 user_input = right.slider(
-                    f"Values for {col}",
+                    f'Values for {col}',
                     min_value = _min,
                     max_value = _max,
                     value = (_min, _max),
@@ -49,7 +50,7 @@ def dfWithFilter(df):
 
             elif (is_datetime64_any_dtype(df[col])):
                 user_date_input = right.date_input(
-                    f"Values for {col}",
+                    f'Values for {col}',
                     value = (df[col].min(), df[col].max(),
                     ),
                 )

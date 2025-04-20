@@ -2,7 +2,6 @@ import json, re, datetime as dt
 import pandas as pd, numpy as np
 import streamlit as st
 
-
 def addDateTimeColumns(df):
     '''
     Transform the date column into DateTime Datatype
@@ -72,7 +71,7 @@ def groupByMonth(df):
     return grouped_df
 
 def getReviewPeriod(df):
-    """Extracts the earliest and latest Month(MMM) and Year from the DataFrame based on YearMthKey."""
+    '''Extracts the earliest and latest Month(MMM) and Year from the DataFrame based on YearMthKey.'''
     minYearMthKey, maxYearMthKey = min(df['YearMthKey']), max(df['YearMthKey'])
     minRow = df[df['YearMthKey'] == minYearMthKey].iloc[0]
     maxRow = df[df['YearMthKey'] == maxYearMthKey].iloc[0]
@@ -94,7 +93,7 @@ def categoriseDelta(num):
         return "⬜"
 
 def highlight_row(row, highest_delta_index):
-    """Highlights the row with the highest 'delta' value."""
+    '''Highlights the row with the highest 'delta' value.'''
     if row.name == highest_delta_index:
         return ['background-color: #FF0800'] * len(row)
     return [''] * len(row)
@@ -130,11 +129,6 @@ def groupByCategory(df):
     # reset the index
     grouped_df.reset_index(drop = True, inplace = True)
 
-    # # Cast to the appropriate type
-    # grouped_df = grouped_df.astype({'Category':'string',
-    #                                 'Amount':'float'}) 
-
-    # print(grouped_df.dtypes)
     return grouped_df
 
 def getFilteredDF(sel_month, df):
@@ -144,6 +138,6 @@ def getFilteredDF(sel_month, df):
         filterDF = groupByCategory(df[df['Month'] == sel_month])
 
     total_val = filterDF['Amount'].sum()
-    filterDF['% of Total (%)'] = round((filterDF["Amount"]/total_val) * 100, 2)
+    filterDF['% of Total (%)'] = round((filterDF['Amount']/total_val) * 100, 2)
 
     return filterDF.round(2)
