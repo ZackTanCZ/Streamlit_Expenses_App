@@ -7,10 +7,13 @@ def addDateTimeColumns(df):
     '''
     Transform the date column into DateTime Datatype
     Add a 'Month', 'Month_num', 'YearMthKey' and 'Year' Column for mapping purposes
+    sort the DataFrame in chronological order and reset the DataFrame index
     '''
     df['date_dt'] = pd.to_datetime(df['Date'], dayfirst = True, 
                                    yearfirst = True)
-
+    
+    df['date_d'] = df['date_dt'].dt.date
+    
     # Add a 'Year' Column with .dt.year -  2024
     df['Year'] = df['date_dt'].dt.year
 
@@ -23,13 +26,26 @@ def addDateTimeColumns(df):
     # Add a 'YearMthKey' column - YYYYMM
     df['YearMthKey'] = (df['Year'] * 100) + df['Month_num']
 
+    # Cast columns into an appropriate dtype
+    df = df.astype({'Year':'int',
+                    'Month_num':'int',
+                    'Month':'string',
+                    'YearMthKey':'int',
+                    'Category':'string',
+                    'Amount':'float',
+                    'date_d':'datetime64[ns]'})
+
     # Sort the DataFrame by date
-    df.sort_values(by = ["date_dt"], ascending = True)
+    df.sort_values(by = ['date_d'], ascending = True, inplace = True)
        
+    # Rename columns - 'Date':'Date (DD-MM-YYYY)' is object dtype and what we want to show
+    # 'date_d':'Date' is datetime64 dtype and what we filter for/against
+    df.rename(columns={'Date':'Date (DD-MM-YYYY)', 'date_d':'Date'}, inplace = True)  
+     
     # Reset the index
     df.reset_index(drop = True, inplace = True)
 
-    return df
+    return df.round(2)
 
 def groupByMonth(df):
     '''
@@ -51,12 +67,8 @@ def groupByMonth(df):
     grouped_df.reset_index(drop = True, inplace = True)
 
     # Cast to the appropriate type
-    grouped_df = grouped_df.astype({'Month':'string', 
-                                    'Month_num':'int',
-                                    'Amount':'float',
-                                    '% of Total':'float'}) 
+    grouped_df = grouped_df.astype({'% of Total':'float'}) 
 
-    # print(grouped_df.dtypes)
     return grouped_df
 
 def getReviewPeriod(df):
@@ -118,20 +130,20 @@ def groupByCategory(df):
     # reset the index
     grouped_df.reset_index(drop = True, inplace = True)
 
-    # Cast to the appropriate type
-    grouped_df = grouped_df.astype({'Category':'string',
-                                    'Amount':'float'}) 
+    # # Cast to the appropriate type
+    # grouped_df = grouped_df.astype({'Category':'string',
+    #                                 'Amount':'float'}) 
 
     # print(grouped_df.dtypes)
     return grouped_df
 
 def getFilteredDF(sel_month, df):
-    if (sel_month == "All Months"):
+    if (sel_month == 'All Months'):
         filterDF = groupByCategory(df)
     else:
         filterDF = groupByCategory(df[df['Month'] == sel_month])
 
-    total_val = filterDF["Amount"].sum()
-    filterDF["% of Total (%)"] = round((filterDF["Amount"]/total_val) * 100, 2)
+    total_val = filterDF['Amount'].sum()
+    filterDF['% of Total (%)'] = round((filterDF["Amount"]/total_val) * 100, 2)
 
-    return filterDF
+    return filterDF.round(2)
